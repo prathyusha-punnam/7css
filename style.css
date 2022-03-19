@@ -1,0 +1,33 @@
+.box{
+    width: 150px;
+    height: 150px;
+    border: 2px solid rgb(255, 38, 0);
+    box-shadow: 3px 3px 8px rgb(145, 236, 102);
+    text-shadow: 2px 2px 5px rgb(0, 124, 128);
+
+}
+h1{
+    text-shadow: 2px 2px 3px rgb(238, 255, 0);
+}
+.cell{
+    width: 150px;
+    height: 150px;
+    background-color: rgb(0, 38, 255);
+    box-shadow: 3px 3px 10px rgb(224, 100, 208);
+    transition: all 2s;
+    color: aliceblue;
+}
+.cell:hover{
+    transform: rotate(360deg);
+}
+.cell1{
+    width: 200px;
+    height: 150px;
+    background-color: rgb(80, 229, 255);
+    transition: width 2s ease-in;
+    box-shadow: 6px 6px 15px black ;
+    color: blueviolet;
+}
+.cell1:hover{
+    width: 500px;
+}
